@@ -1,0 +1,10 @@
+<div class="login-container">
+  <h2>Ingresa tu usuario</h2>
+  <form (ngSubmit)="onSubmit()">
+    <div>
+      <label for="username">Nombre de Usuario:</label>
+      <input type="text" id="username" [(ngModel)]="username" name="username" required />
+    </div>
+    <button type="submit" [disabled]="!username">Siguiente</button>
+  </form>
+</div>
