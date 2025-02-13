@@ -1,0 +1,61 @@
+*{
+  background-color: honeydew;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+select{
+  border-radius: 5px;
+}
+
+button{
+  font-size: 15px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 160px;
+  height: 50px;
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+.containerSumatori{
+  width: 50%;
+  height: 100%;
+}
+
+.containerButtons{
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+
+.showContent, td, th{
+  border: 1px solid black;
+}
+
+.containerButtonImprovement{
+  padding: 100px;
+}
+
+.containerButtonDatalist, .buttonNextPage{
+  padding: 50px;
+}
+
+h1{
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0 25px 0;
+}
+
+table{
+  margin: 0 auto;
+}
+
+button:hover{
+  background-color: #00c5ff;
+}
