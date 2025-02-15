@@ -13,26 +13,10 @@
         </tr>
         </thead>
         <tbody>
-        <tr>
-          <td>primera sumatoria</td>
-          <td>32.5%</td>
-        </tr>
-        <tr>
-          <td>segunda sumatoria</td>
-          <td>40.5%</td>
-        </tr>
-        <tr>
-          <td>tercera sumatoria</td>
-          <td>37.5%</td>
-        </tr>
-        <tr>
-          <td>cuarta sumatoria</td>
-          <td>38.5%</td>
-        </tr>
-        <tr>
-          <td>quinta sumatoria</td>
-          <td>45.5%</td>
-        </tr>
+          <tr *ngFor="let item of data">
+            <td>{{ item.number }}</td>
+            <td>{{ item.average }}%</td>
+          </tr>
         </tbody>
       </table>
     </div>
